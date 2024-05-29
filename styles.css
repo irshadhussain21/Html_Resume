@@ -1,0 +1,268 @@
+body{
+    font-family:sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+
+.container{
+    margin-bottom: 50px;
+    display: flex;
+    width: 100%;
+    margin-right: 50px;
+    /* height: 100vh; */
+   
+}
+
+.left{
+    width: 350px;
+    /* height: 150vh; */
+    background-color: #1d1d1d;
+    color: #fff;
+    
+}
+
+.right
+{
+    display: flex;
+    padding-left: 25px;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+    width: 600px;
+     height: 70vh;
+    background-color:#d2d2d2;
+    
+    
+
+}
+
+.profile-image{
+    
+    
+    width: 350px;
+    height: auto;
+    
+}
+
+.name{
+    
+    font-size: 3em;
+    color: #1d1d1d;
+    margin-bottom: 1px;
+
+}
+
+.title{
+    width: max-content;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: rgb(220, 180, 4);
+    color: black;
+}
+
+.section-title{
+    padding-left: 0px;
+    
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.section-content{
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+
+.section-exp-content{
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    flex-direction: column;
+    background-color: #d2d2d2;
+    color: black;
+}
+
+.contact-info-text{
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    color: black;
+}
+
+.fas{
+    display: flex;
+    flex-direction: column;
+    color:black;
+    margin-right: 10px;
+    
+}
+
+.underline{
+    border-bottom: 5px solid #dcb404;
+    width: 40px;
+
+}
+
+.other-details{
+    padding-left: 25px;
+    width: 600px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-color: white;
+}
+
+.job-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dcb404;
+    border-radius: 3px;
+    border: none;
+    width: 80px;
+    height: 25px;
+}
+
+.job-desc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.reference{
+    padding-bottom: 30px;
+    padding-left: 25px;
+    font-style: bold;
+   
+}
+
+.ref-det{
+    display: flex;  
+    justify-content: left;
+    gap: 70px;
+    row-gap: 1px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.int-icon{
+    padding-top: 20px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.int{
+    display: flex;
+    flex-direction: row;
+    color:#dcb404;
+    font-size: 50px;
+    background-color: white;
+}
+
+.interest{
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+.int-name{
+    padding-right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.level{
+    display: flex;
+    width: 50%;
+    background-color: black;
+}
+
+
+.skills{
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+
+.ps{
+    width: 90%;
+    height: 5px;
+    font-size: 5px;
+    background-color: #dcb404;
+    color: #dcb404;
+}
+.ill{
+    width: 80%;
+    height: 5px;
+    font-size: 5px;
+    background-color: #dcb404;
+    color: #dcb404;
+}
+.ind{
+    width: 90%;
+    height: 5px;
+    font-size: 5px;
+    background-color: #dcb404;
+    color: #dcb404;
+}
+.wor{
+    width: 80%;
+    height: 5px;
+    font-size: 5px;
+    background-color: #dcb404;
+    color: #dcb404;
+}
+.pp{
+    width: 75%;
+    height: 5px;
+    font-size: 5px;
+    background-color: #dcb404;
+    color: #dcb404;
+}
+
+.left-dat{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+
+}
+
+.cont-style{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.cont-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 70px;
+    background-color: #dcb404;
+}
+
+#Uid{
+    margin-left: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
